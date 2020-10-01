@@ -43,3 +43,21 @@ public class MaxSum {
 	
 	}
 }
+
+//Use Kadane Algorithm
+// for (int i = 0; i < inputArray.length; i++)
+// {
+//  currentSum = currentSum + inputArray[i];
+
+//  if(currentSum < 0)
+//  {
+//   currentSum = 0;
+//   currentStart = i+1;
+//  }
+//  else if (currentSum > bestSum)
+//  {
+//   bestSum = currentSum;
+//   bestStart = currentStart;
+//   bestEnd = i;
+//  }
+// }
