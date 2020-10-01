@@ -7,7 +7,17 @@ public class MaxSum {
 
 		int[] numbersList = {1,2};
 		
-		int big, sum=0;
+		int big=MaxSum(numberList);
+		
+		System.out.println(big);
+		
+	}
+
+	//mathod to find MaxSum 
+	
+	public static int MaxSum(int [] numberList){
+	
+	int big, sum=0;
 		
 		if(numbersList[0] > numbersList[1]) {
 			big = numbersList[0];
@@ -26,9 +36,10 @@ public class MaxSum {
 		        }
 		    }
 		}
-		
-		System.out.println(big);
-		
+	
+	return big;
+	
+	
+	
 	}
-
 }
